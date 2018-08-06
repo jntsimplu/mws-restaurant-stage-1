@@ -50,7 +50,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #fff;
   font-size: 12pt;
   letter-spacing: 1px;
   padding: 25px;
@@ -84,7 +84,7 @@ nav h1 a {
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
-    background-color: #eee;
+    background-color: #fff;
     font-size: 17px;
     margin: 0;
     width: calc(50% - 80px);
@@ -261,11 +261,12 @@ nav h1 a {
 #restaurant-address {
   font-size: 12pt;
   margin: 10px 0px;
+	color: #f18200;
 }
 
 #restaurant-cuisine {
   background-color: #333;
-  color: #ddd;
+  color: #fff;
   font-size: 12pt;
   font-weight: 300;
   letter-spacing: 10px;
@@ -334,7 +335,7 @@ nav h1 a {
 
 #reviews-list li p:nth-child(2){
   text-align:right;
-  color: #aaa;
+  color: #fff;
   font-size: 14px;
   margin-top: 0px;
 }
@@ -362,7 +363,7 @@ nav h1 a {
 }
 
 #restaurant-hours td {
-  color: #666;
+  color: #333;
 }
 
 #restaurants-list {
@@ -373,6 +374,13 @@ nav h1 a {
 
 /* ====================== Media Queries ====================== */
 @media screen and (max-width:700px) {
+	#restaurant-img,
+	#restaurant-cuisine {
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
 	#restaurant-container,
 	#reviews-container {
 		width: 50%;
